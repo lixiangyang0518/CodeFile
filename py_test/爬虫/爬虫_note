@@ -1,0 +1,11 @@
+爬虫： 用程序模拟浏览器 获取服务器资源
+已知目标:知道需要获取什么数据，以及数据在哪（URL）
+
+# 放在 headers 中 模拟浏览器
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57'
+
+# 文件的创建及写入
+with open('vedio.txt', 'w', encoding='utf-8') as file：
+    file.write(data)
+
+# 服务器返回的响应数据：  req.text: 文本信息    req.content: 多媒体文件
